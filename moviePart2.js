@@ -21,8 +21,13 @@ myMovie.summary = "World War II movie about Normandy landings.";
 
 
 // Q2.3 Change the data of the properties 'rating' and 'year'.
-myMovie.rating = 4;
-myMovie.year = 1962;
+// myMovie.rating = 4;
+// myMovie.year = 1962;
+// console.log(myMovie);
+
+
+// Q2.4 Remove the property 'summary'.
+delete myMovie.summary;
 console.log(myMovie);
 
 
