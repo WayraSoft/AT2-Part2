@@ -10,4 +10,12 @@ const myMovie = {
   year: 1964
 };
 
+// console.log(myMovie); 
+
+// Q2.2 Add two new properties to the object as required:
+//      'rating' describes perceived quality and 'summary'
+//       describes a brief overview.
+myMovie.rating = 5;
+myMovie.summary = "World War II movie about Normandy landings.";
 console.log(myMovie);
+
